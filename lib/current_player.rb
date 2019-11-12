@@ -4,6 +4,7 @@ def current_player(board)
     return "O"
   else
     return "X"
+  end
 end
 
 #turn_count will keep track of how many turns have been played

@@ -1,6 +1,9 @@
 #current_player determines whose turn it is
-def current_player
-  if ()
+def current_player(board)
+  if (turn_count(board) % 2 == 0)
+    return "O"
+  else
+    return "X"
 end
 
 #turn_count will keep track of how many turns have been played

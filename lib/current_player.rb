@@ -9,11 +9,11 @@ end
 
 #turn_count will keep track of how many turns have been played
 def turn_count(board)
-  num_of_turns = 1
+  occupied_spots = 0
   board.each do |spot|
     if (spot == 'X' || spot == 'O')
-      num_of_turns += 1
+      occupied_spots += 1
     end
   end
-  num_of_turns
+  num_of_turns = occupied_spots + 1
 end

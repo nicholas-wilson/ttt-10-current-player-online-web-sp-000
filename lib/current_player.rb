@@ -11,7 +11,7 @@ end
 def turn_count(board)
   num_of_turns = 0
   board.each do |spot|
-    if (board[spot] == 'X' || board[spot] == 'O')
+    if (spot == 'X' || spot == 'O')
       num_of_turns += 1
     end
   end

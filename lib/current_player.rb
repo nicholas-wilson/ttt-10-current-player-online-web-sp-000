@@ -1,6 +1,6 @@
 #current_player determines whose turn it is
 def current_player
-
+  if ()
 end
 
 #turn_count will keep track of how many turns have been played
@@ -11,4 +11,5 @@ def turn_count(board)
       num_of_turns += 1
     end
   end
+  num_of_turns
 end

@@ -1,6 +1,8 @@
 #current_player determines whose turn it is
 def current_player(board)
-  if (turn_count(board) % 2 == 0)
+  if (turn_count(board) == 1)
+    return "X"
+  elsif (turn_count(board) % 2 == 0)
     return "O"
   else
     return "X"
